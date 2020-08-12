@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './App.scss';
 import BaseNumberInput from './components/BaseNumberInput';
+import ClassStyle from './components/ClassStyle';
 
 class App extends Component {
   constructor(props) {
@@ -81,8 +82,9 @@ binaryToDecimal(binaryNumber){
     const { decimal, binary, d, b } = this.state
       return (
           <div className="container">
-              <BaseNumberInput type="decimal" handleChange={(e) => this.handleChange(e, d)} decimal={decimal} />
-              <BaseNumberInput type="binary"  handleChange={(e) => this.handleChange(e, b)} decimal={binary} />
+              {/* <BaseNumberInput type="decimal" handleChange={(e) => this.handleChange(e, d)} decimal={decimal} />
+              <BaseNumberInput type="binary"  handleChange={(e) => this.handleChange(e, b)} decimal={binary} /> */}
+              <ClassStyle />
           </div>
       );
   }
