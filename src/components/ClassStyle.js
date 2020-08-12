@@ -21,8 +21,8 @@ class ClassStyle extends Component {
         super(props)
     
         this.state = {
-            myColor: "",
-            myBackground: ""
+            myColor: "721c24",
+            myBackground: "f5c6cb"
         }
     }
 
