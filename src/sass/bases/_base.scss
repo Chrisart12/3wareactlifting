@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    //-moz-box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+}
+
+body {
+	width: 100%;
+    background: $backgroundColor;
+    font-family: 'Saira', sans-serif;
+    font-size: 1.1rem;
+}
